@@ -18,6 +18,10 @@
 		AC8A751829CA5060006B54A7 /* UpdatedMonsterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A751729CA5060006B54A7 /* UpdatedMonsterDemoTests.swift */; };
 		AC8A752229CA5060006B54A7 /* UpdatedMonsterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A752129CA5060006B54A7 /* UpdatedMonsterDemoUITests.swift */; };
 		AC8A752429CA5060006B54A7 /* UpdatedMonsterDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A752329CA5060006B54A7 /* UpdatedMonsterDemoUITestsLaunchTests.swift */; };
+		AC8A753329CA5225006B54A7 /* LeviathanMonster.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8A753229CA5225006B54A7 /* LeviathanMonster.json */; };
+		AC8A753929CA5418006B54A7 /* Spine in Frameworks */ = {isa = PBXBuildFile; productRef = AC8A753829CA5418006B54A7 /* Spine */; };
+		AC8A75B729D61914006B54A7 /* LeviathanMonster1.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8A75B629D61914006B54A7 /* LeviathanMonster1.json */; };
+		AC8A75B929D74C9E006B54A7 /* LeviathanMonster3.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8A75B829D74C9E006B54A7 /* LeviathanMonster3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,9 @@
 		AC8A751D29CA5060006B54A7 /* UpdatedMonsterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpdatedMonsterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A752129CA5060006B54A7 /* UpdatedMonsterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedMonsterDemoUITests.swift; sourceTree = "<group>"; };
 		AC8A752329CA5060006B54A7 /* UpdatedMonsterDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedMonsterDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC8A753229CA5225006B54A7 /* LeviathanMonster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster.json; sourceTree = "<group>"; };
+		AC8A75B629D61914006B54A7 /* LeviathanMonster1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster1.json; sourceTree = "<group>"; };
+		AC8A75B829D74C9E006B54A7 /* LeviathanMonster3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8A753929CA5418006B54A7 /* Spine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +110,9 @@
 		AC8A74FC29CA505F006B54A7 /* UpdatedMonsterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC8A75B629D61914006B54A7 /* LeviathanMonster1.json */,
+				AC8A753229CA5225006B54A7 /* LeviathanMonster.json */,
+				AC8A75B829D74C9E006B54A7 /* LeviathanMonster3.json */,
 				AC8A74FD29CA505F006B54A7 /* AppDelegate.swift */,
 				AC8A74FF29CA505F006B54A7 /* GameScene.sks */,
 				AC8A750129CA505F006B54A7 /* Actions.sks */,
@@ -147,6 +158,9 @@
 			dependencies = (
 			);
 			name = UpdatedMonsterDemo;
+			packageProductDependencies = (
+				AC8A753829CA5418006B54A7 /* Spine */,
+			);
 			productName = UpdatedMonsterDemo;
 			productReference = AC8A74FA29CA505F006B54A7 /* UpdatedMonsterDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +233,9 @@
 				Base,
 			);
 			mainGroup = AC8A74F129CA505F006B54A7;
+			packageReferences = (
+				AC8A753729CA5418006B54A7 /* XCRemoteSwiftPackageReference "Spine" */,
+			);
 			productRefGroup = AC8A74FB29CA505F006B54A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +257,9 @@
 				AC8A750B29CA5060006B54A7 /* Assets.xcassets in Resources */,
 				AC8A750E29CA5060006B54A7 /* LaunchScreen.storyboard in Resources */,
 				AC8A750229CA505F006B54A7 /* Actions.sks in Resources */,
+				AC8A75B929D74C9E006B54A7 /* LeviathanMonster3.json in Resources */,
+				AC8A753329CA5225006B54A7 /* LeviathanMonster.json in Resources */,
+				AC8A75B729D61914006B54A7 /* LeviathanMonster1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC8A753729CA5418006B54A7 /* XCRemoteSwiftPackageReference "Spine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxgribov/Spine";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC8A753829CA5418006B54A7 /* Spine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC8A753729CA5418006B54A7 /* XCRemoteSwiftPackageReference "Spine" */;
+			productName = Spine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC8A74F229CA505F006B54A7 /* Project object */;
 }
