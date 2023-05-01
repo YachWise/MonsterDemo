@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2A03A929DF2FDE005C7756 /* LeviathanMonster4.json in Resources */ = {isa = PBXBuildFile; fileRef = AC2A03A829DF2FDE005C7756 /* LeviathanMonster4.json */; };
+		AC53DAA429E4925400C0F03A /* LeviathanMonster5.json in Resources */ = {isa = PBXBuildFile; fileRef = AC53DAA329E4925400C0F03A /* LeviathanMonster5.json */; };
 		AC8A74FE29CA505F006B54A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A74FD29CA505F006B54A7 /* AppDelegate.swift */; };
 		AC8A750029CA505F006B54A7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC8A74FF29CA505F006B54A7 /* GameScene.sks */; };
 		AC8A750229CA505F006B54A7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AC8A750129CA505F006B54A7 /* Actions.sks */; };
@@ -18,10 +20,10 @@
 		AC8A751829CA5060006B54A7 /* UpdatedMonsterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A751729CA5060006B54A7 /* UpdatedMonsterDemoTests.swift */; };
 		AC8A752229CA5060006B54A7 /* UpdatedMonsterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A752129CA5060006B54A7 /* UpdatedMonsterDemoUITests.swift */; };
 		AC8A752429CA5060006B54A7 /* UpdatedMonsterDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8A752329CA5060006B54A7 /* UpdatedMonsterDemoUITestsLaunchTests.swift */; };
-		AC8A753329CA5225006B54A7 /* LeviathanMonster.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8A753229CA5225006B54A7 /* LeviathanMonster.json */; };
 		AC8A753929CA5418006B54A7 /* Spine in Frameworks */ = {isa = PBXBuildFile; productRef = AC8A753829CA5418006B54A7 /* Spine */; };
-		AC8A75B729D61914006B54A7 /* LeviathanMonster1.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8A75B629D61914006B54A7 /* LeviathanMonster1.json */; };
-		AC8A75B929D74C9E006B54A7 /* LeviathanMonster3.json in Resources */ = {isa = PBXBuildFile; fileRef = AC8A75B829D74C9E006B54A7 /* LeviathanMonster3.json */; };
+		ACDBB3B429EA4EE0003DB256 /* LeviathanMonster6.json in Resources */ = {isa = PBXBuildFile; fileRef = ACDBB3B329EA4EE0003DB256 /* LeviathanMonster6.json */; };
+		ACDEBBE629F9916F003076A0 /* Frog.json in Resources */ = {isa = PBXBuildFile; fileRef = ACDEBBE529F9916F003076A0 /* Frog.json */; };
+		ACDEBBE829F991C2003076A0 /* LeviathanMonster7.json in Resources */ = {isa = PBXBuildFile; fileRef = ACDEBBE729F991C2003076A0 /* LeviathanMonster7.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC2A03A829DF2FDE005C7756 /* LeviathanMonster4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster4.json; sourceTree = "<group>"; };
+		AC53DAA329E4925400C0F03A /* LeviathanMonster5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster5.json; sourceTree = "<group>"; };
 		AC8A74FA29CA505F006B54A7 /* UpdatedMonsterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpdatedMonsterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A74FD29CA505F006B54A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC8A74FF29CA505F006B54A7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -56,9 +60,9 @@
 		AC8A751D29CA5060006B54A7 /* UpdatedMonsterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpdatedMonsterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8A752129CA5060006B54A7 /* UpdatedMonsterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedMonsterDemoUITests.swift; sourceTree = "<group>"; };
 		AC8A752329CA5060006B54A7 /* UpdatedMonsterDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedMonsterDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AC8A753229CA5225006B54A7 /* LeviathanMonster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster.json; sourceTree = "<group>"; };
-		AC8A75B629D61914006B54A7 /* LeviathanMonster1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster1.json; sourceTree = "<group>"; };
-		AC8A75B829D74C9E006B54A7 /* LeviathanMonster3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster3.json; sourceTree = "<group>"; };
+		ACDBB3B329EA4EE0003DB256 /* LeviathanMonster6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster6.json; sourceTree = "<group>"; };
+		ACDEBBE529F9916F003076A0 /* Frog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Frog.json; sourceTree = "<group>"; };
+		ACDEBBE729F991C2003076A0 /* LeviathanMonster7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LeviathanMonster7.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +114,11 @@
 		AC8A74FC29CA505F006B54A7 /* UpdatedMonsterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AC8A75B629D61914006B54A7 /* LeviathanMonster1.json */,
-				AC8A753229CA5225006B54A7 /* LeviathanMonster.json */,
-				AC8A75B829D74C9E006B54A7 /* LeviathanMonster3.json */,
+				ACDEBBE529F9916F003076A0 /* Frog.json */,
+				ACDEBBE729F991C2003076A0 /* LeviathanMonster7.json */,
+				ACDBB3B329EA4EE0003DB256 /* LeviathanMonster6.json */,
+				AC2A03A829DF2FDE005C7756 /* LeviathanMonster4.json */,
+				AC53DAA329E4925400C0F03A /* LeviathanMonster5.json */,
 				AC8A74FD29CA505F006B54A7 /* AppDelegate.swift */,
 				AC8A74FF29CA505F006B54A7 /* GameScene.sks */,
 				AC8A750129CA505F006B54A7 /* Actions.sks */,
@@ -253,13 +259,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8A750929CA505F006B54A7 /* Main.storyboard in Resources */,
+				ACDEBBE829F991C2003076A0 /* LeviathanMonster7.json in Resources */,
 				AC8A750029CA505F006B54A7 /* GameScene.sks in Resources */,
+				AC2A03A929DF2FDE005C7756 /* LeviathanMonster4.json in Resources */,
+				ACDEBBE629F9916F003076A0 /* Frog.json in Resources */,
 				AC8A750B29CA5060006B54A7 /* Assets.xcassets in Resources */,
 				AC8A750E29CA5060006B54A7 /* LaunchScreen.storyboard in Resources */,
+				AC53DAA429E4925400C0F03A /* LeviathanMonster5.json in Resources */,
+				ACDBB3B429EA4EE0003DB256 /* LeviathanMonster6.json in Resources */,
 				AC8A750229CA505F006B54A7 /* Actions.sks in Resources */,
-				AC8A75B929D74C9E006B54A7 /* LeviathanMonster3.json in Resources */,
-				AC8A753329CA5225006B54A7 /* LeviathanMonster.json in Resources */,
-				AC8A75B729D61914006B54A7 /* LeviathanMonster1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
